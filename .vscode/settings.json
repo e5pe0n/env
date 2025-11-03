@@ -1,0 +1,146 @@
+{
+  "editor.stickyScroll.enabled": true,
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "keyboard.dispatch": "keyCode",
+  "editor.wordWrap": "on",
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
+    "editor.formatOnSave": false,
+    "files.trimTrailingWhitespace": false,
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.tabSize": 2
+  },
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.codeLens.symbolScopes": ["!Module"],
+    "editor.formatOnType": true,
+    "editor.wordBasedSuggestions": "off",
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "editor.renderWhitespace": "all",
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "editor.inlineCompletionsAccessibilityVerbose": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "C_Cpp.default.defines": ["_GNU_SOURCE"],
+  "editor.guides.bracketPairs": true,
+  "explorer.compactFolders": false,
+  "C_Cpp.clang_format_fallbackStyle": "Google",
+  "[scheme]": {
+    "editor.tabSize": 2
+  },
+  "haskell.manageHLS": "GHCup",
+  "[haskell]": {
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#e4002b",
+    "editorCursor.background": "#ffffff",
+    "activityBar.foreground": "#000000",
+    "activityBar.border": "#e5e5e5",
+    "activityBarBadge.background": "default",
+    "activityBarBadge.foreground": "default",
+    "sideBar.border": "#ebebeb",
+    "editorWhitespace.foreground": "default",
+    "tab.inactiveForeground": "default",
+    "tab.border": "#e5e5e5",
+    "editor.wordHighlightBackground": "#9c9c9c40",
+    "editor.wordHighlightStrongBackground": "#9c9c9c60"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#757575"
+  },
+  "hexeditor.columnWidth": 16,
+  "hexeditor.showDecodedText": true,
+  "hexeditor.defaultEndianness": "little",
+  "hexeditor.inspectorType": "aside",
+  "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+  "C_Cpp.inlayHints.referenceOperator.enabled": true,
+  "C_Cpp.inlayHints.referenceOperator.showSpace": true,
+  "terminal.integrated.scrollback": 10000,
+  "github.copilot.enable": {
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "*": false
+  },
+  "dev.containers.mountWaylandSocket": false,
+  "window.commandCenter": false,
+  "pgsql.serverGroups": [
+    {
+      "name": "Servers",
+      "id": "B98A4A85-41EC-40DE-BFF5-3F0A4CF8F679",
+      "isDefault": true
+    }
+  ],
+  "pgsql.connections": [
+    {
+      "id": "04AE3CB0-BECC-476A-95F6-3C57D0D14709",
+      "groupId": "B98A4A85-41EC-40DE-BFF5-3F0A4CF8F679",
+      "authenticationType": "SqlLogin",
+      "connectTimeout": 15,
+      "applicationName": "vscode-pgsql",
+      "clientEncoding": "utf8",
+      "sslmode": "prefer",
+      "server": "localhost",
+      "user": "postgres",
+      "password": "",
+      "savePassword": true,
+      "database": "postgres",
+      "profileName": "stden",
+      "expiresOn": 0
+    }
+  ],
+  "makefile.configureOnOpen": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "editor.fontFamily": "'Intel One Mono','Droid Sans Mono', 'monospace', monospace",
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[linkerscript]": {
+    "editor.tabSize": 2
+  },
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "workbench.editor.enablePreview": false,
+  "editor.editContext": false,
+  "workbench.colorTheme": "Gray Matter Light"
+}
